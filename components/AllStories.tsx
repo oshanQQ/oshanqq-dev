@@ -1,24 +1,21 @@
 import PostPreview from "./PostPreview";
 import Post from "../types/post";
+import Header from "../components/Header";
 
 type Props = {
   posts: Post[];
 };
 
-const MoreStories = ({ posts }: Props) => {
+const AllStories = ({ posts }: Props) => {
   return (
     <section>
-      <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-        More Stories
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-32 mb-32">
+      <Header />
+      <div className="grid grid-cols-1 md:gap-x-4 lg:gap-x-12 gap-y-6 md:gap-y-12 px-6 md:px-10 lg:px-64 mb-10">
         {posts.map((post) => (
           <PostPreview
             key={post.slug}
             title={post.title}
-            coverImage={post.coverImage}
             date={post.date}
-            author={post.author}
             slug={post.slug}
             excerpt={post.excerpt}
           />
@@ -28,4 +25,4 @@ const MoreStories = ({ posts }: Props) => {
   );
 };
 
-export default MoreStories;
+export default AllStories;

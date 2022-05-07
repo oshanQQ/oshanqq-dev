@@ -1,5 +1,5 @@
 import Container from "../components/Container";
-import MoreStories from "../components/MoreStories";
+import AllStories from "../components/AllStories";
 import Layout from "../components/Layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
@@ -18,7 +18,7 @@ const Index = ({ allPosts }: Props) => {
           <title>Next.js Blog Example with {CMS_NAME}</title>
         </Head>
         <Container>
-          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+          {allPosts.length > 0 && <AllStories posts={allPosts} />}
         </Container>
       </Layout>
     </>
