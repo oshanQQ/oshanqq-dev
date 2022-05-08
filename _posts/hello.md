@@ -2,7 +2,7 @@
 title: "Next.jsでブログを作った"
 excerpt: "✨ Blog templateを使ってラクに構築します"
 coverImage: "/assets/blog/hello-world/cover.jpg"
-date: "2022-03-16T05:35:07.322Z"
+date: "2022.03.16"
 author:
   name: Tim Neutkens
   picture: "/assets/blog/authors/tim.jpeg"
