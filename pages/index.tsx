@@ -3,7 +3,6 @@ import AllStories from "../components/AllStories";
 import Layout from "../components/Layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
-import { CMS_NAME } from "../lib/constants";
 import Post from "../types/post";
 
 type Props = {
@@ -15,7 +14,7 @@ const Index = ({ allPosts }: Props) => {
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>oshanqq dev</title>
         </Head>
         <Container>
           {allPosts.length > 0 && <AllStories posts={allPosts} />}

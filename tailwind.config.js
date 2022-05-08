@@ -3,7 +3,18 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      display: ["Segoe ui", "Meiryo"],
+      paperMod: [
+        "segoe ui",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "open sans",
+        "helvetica neue",
+        "sans-serif",
+      ],
     },
   },
   plugins: [],
