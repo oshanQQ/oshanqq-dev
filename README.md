@@ -1,3 +1,3 @@
 # oshanqq-dev
 
-oshanqq website
+🍣 oshanqq website
