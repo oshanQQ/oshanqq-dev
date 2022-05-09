@@ -1,6 +1,7 @@
 import { AppProps } from "next/app";
 import "../styles/index.css";
 import { useEffect } from "react";
+import initTwitterScriptInner from "zenn-embed-elements/lib/init-twitter-script-inner";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -8,6 +9,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: initTwitterScriptInner,
+        }}
+      />
       <Component {...pageProps} />
     </>
   );
