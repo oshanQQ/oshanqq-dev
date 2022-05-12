@@ -128,7 +128,7 @@ https://github.com/zenn-dev/zenn-editor/issues/293
  }
 ```
 
-つまり今回のケースに関して、**`package.json`のバージョン表記では、`^0.1.106`と`0.1.106`でパッケージのバージョンが異なる**ということです。
+つまり今回のケースに関して、**`package.json`のバージョン表記では、`^0.1.106`と`0.1.106`でライブラリのバージョンが異なる**ということです。
 
 では具体的にどう違うのか？気になったので、調べてまとめてみました。
 
@@ -206,6 +206,8 @@ https://zenn.dev/nekoniki/articles/ec5bb4d16ef20a
 ライブラリのバージョンを下げるときは気をつけましょう 📦
 
 # 参考資料
+
+- [zenn-embed-elements が導入できない · Issue #293 · zenn-dev/zenn-editor](https://github.com/zenn-dev/zenn-editor/issues/293)
 
 - [package.json のチルダ(~) とキャレット(^) - Qiita](https://qiita.com/sotarok/items/4ebd4cfedab186355867)
 
