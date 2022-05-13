@@ -14,8 +14,8 @@ const PostPreview = ({ title, date, excerpt, slug }: Props) => {
         <h3 className="text-2xl font-bold mb-4">
           <a>{title}</a>
         </h3>
-        <div className="text-lg mb-4 text-[#6C6C6C]">{date}</div>
-        <p className="text-md leading-relaxed text-[#6C6C6C]">{excerpt}</p>
+        <p className="text-md mb-4 leading-relaxed text-[#6C6C6C]">{excerpt}</p>
+        <div className="text-lg text-[#6C6C6C]">{date}</div>
       </div>
     </Link>
   );

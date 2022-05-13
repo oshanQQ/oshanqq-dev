@@ -35,7 +35,11 @@ const Post = ({ post, preview }: Props) => {
                 <title>{post.title} | oshanqq dev</title>
                 <meta property="og:image" />
               </Head>
-              <PostHeader title={post.title} date={post.date} />
+              <PostHeader
+                title={post.title}
+                date={post.date}
+                excerpt={post.excerpt}
+              />
               <PostBody content={post.content} />
             </article>
           </>
@@ -58,7 +62,7 @@ export async function getStaticProps({ params }: Params) {
     "title",
     "date",
     "slug",
-    "author",
+    "excerpt",
     "content",
     "ogImage",
     "coverImage",
