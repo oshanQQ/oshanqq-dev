@@ -4,12 +4,13 @@ import Meta from "./Meta";
 type Props = {
   preview?: boolean;
   children: React.ReactNode;
+  title?: string;
 };
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children, title = "oshanQQ-dev" }: Props) => {
   return (
     <>
-      <Meta />
+      <Meta title={title} />
       <div className="min-h-screen">
         <main>{children}</main>
       </div>

@@ -1,6 +1,10 @@
 import Head from "next/head";
 
-const Meta = () => {
+type Props = {
+  title: string;
+};
+
+const Meta = ({ title }: Props) => {
   return (
     <Head>
       <link
@@ -33,12 +37,12 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta name="oshanqq dev" content={`oshanqq's website`} />
       <meta name="twitter:image" content="http://oshanqq.dev/site_image.png" />
-      <meta name="twitter:title" content="oshanQQ-dev" />
+      <meta name="twitter:title" content={title} />
       <meta name="twitter:site" content="@oshanQQ" />
       <meta name="twitter:description" content="🍣oshanQQ's website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:image" content="http://oshanqq.dev/site_image.png" />
-      <meta property="og:title" content="oshanQQ-dev" />
+      <meta property="og:title" content={title} />
       <meta property="og:description" content="🍣oshanQQ's website" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="http://oshanqq.dev" />
