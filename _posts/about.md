@@ -22,3 +22,16 @@ https://qiita.com/oshanQQ
 
 https://zenn.dev/oshanqq
 
+# Internships / Employments
+
+**2022.03~**
+アーニー株式会社 / アーニー MLG 株式会社 (アルバイト)
+
+**2022.03**
+株式会社 ATOMica (アルバイト)
+
+**2021.09**
+楽天グループ株式会社 (インターン)
+
+**2020.11~**
+株式会社 nanoFreaks (アルバイト)
