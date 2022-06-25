@@ -40,7 +40,7 @@ https://zenn.dev/oshanqq
 
 ## 2022.02
 
-SAGA×Azure Hackathon 最優秀賞
+SAGA×Azure Hackathon **最優秀賞**
 
 https://hackz.team/news/2NI9kKjmcoVfALGaw2luVR
 
@@ -48,6 +48,6 @@ https://aadojo.alterbooth.com/entry/2022/02/17/095942?utm_source=feed
 
 ## 2021.03
 
-Open Hack U 2020 Online Vol.5 最優秀賞 / Happy Hacking 賞
+Open Hack U 2020 Online Vol.5 **最優秀賞 / Happy Hacking 賞**
 
 https://hacku.yahoo.co.jp/hacku2020online5/
