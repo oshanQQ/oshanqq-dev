@@ -11,6 +11,7 @@ Shodai Onoyama
 
 九州工業大学 工学部 宇宙システム工学科 電気宇宙コース
 九工大プロ研メンバー
+基本情報技術者
 
 https://github.com/oshanQQ
 
