@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  frontend:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: frontend
+    volumes:
+      - ./:/app/
+      - /app/node_modules
+    command: npm run dev
+    ports:
+      - 3000:3000
+
+volumes:
+  oshanqq-dev-node-modules:
