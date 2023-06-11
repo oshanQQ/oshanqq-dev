@@ -10,7 +10,7 @@ const AllStories = ({ posts }: Props) => {
   return (
     <section>
       <Header />
-      <div className="grid grid-cols-1 md:gap-x-4 lg:gap-x-12 gap-y-6 md:gap-y-12 px-6 md:px-10 lg:px-64 mb-10">
+      <div className="grid grid-cols-1 md:gap-x-4 lg:gap-x-12 gap-y-2 px-6 md:px-10 lg:px-64 mb-10">
         {posts.map((post) => (
           <PostPreview
             key={post.slug}
