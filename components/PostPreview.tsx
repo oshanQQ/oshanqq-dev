@@ -10,11 +10,11 @@ type Props = {
 const PostPreview = ({ title, date, excerpt, slug }: Props) => {
   return (
     <Link as={`/posts/${slug}`} href="/posts/[slug]">
-      <div className="px-6 py-10 bg-white rounded-xl shadow-sm cursor-pointer">
-        <h3 className="text-2xl font-bold mb-4">
+      <div className="px-6 py-7 bg-white rounded-xl shadow-sm cursor-pointer">
+        <h3 className="text-2xl font-bold mb-1">
           <a>{title}</a>
         </h3>
-        <p className="text-md mb-4 leading-relaxed text-[#6C6C6C]">{excerpt}</p>
+        <p className="text-md mb-1 leading-relaxed text-[#6C6C6C]">{excerpt}</p>
         <div className="text-lg text-[#6C6C6C]">{date}</div>
       </div>
     </Link>
