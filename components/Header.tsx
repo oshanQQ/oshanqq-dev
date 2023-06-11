@@ -6,9 +6,6 @@ const Header = () => {
       <Link href="/">
         <a>oshanQQ-dev</a>
       </Link>
-      <Link href="/posts/about">
-        <a>about</a>
-      </Link>
     </h2>
   );
 };
